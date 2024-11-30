@@ -37,3 +37,53 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h1, h2, p, ul {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.service-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+.service-item h3 {
+    margin-top: 0;
+}
+
+.service-item p {
+    margin-bottom: 0.5em;
+}
