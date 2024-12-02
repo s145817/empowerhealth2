@@ -16,12 +16,20 @@
                 <li><a href="zorgaanbod.html">Zorgaanbod</a></li>
                 <li><a href="about.html">Over Ons</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Inloggen</a></li>
+                <li><a target="_blank" href="https://zigzag-empowerhealth-cfecfughc4ahbdc2.francecentral-01.azurewebsites.net/wp-admin/">Inloggen</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <p>WERKT NOG NIET</p>
+        <script>
+            function login() {
+              const redirectUri = '/welcome.html'; // Pas aan naar je gewenste redirect-pagina
+              window.location.href = `/.auth/login/aad?post_login_redirect_uri=${redirectUri}`;
+            }
+          </script>
+          
+          <button onclick="login()">Log in met Microsoft Entra ID</button>
+          
     </main>
     <footer>
         <p>&copy; 2024 Team ZigZag</p>
